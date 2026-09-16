@@ -68,23 +68,24 @@ No API or MCP dependency is required. Install the Skill, invoke it, and work thr
 
 1. **Paste** copy, notes, an article, or simply a topic.
 2. **Choose** `16:9`, `9:16`, or `1:1`, then select the light or dark theme.
-3. **Approve** a detailed director's proposal with the English VO, reference translation, visuals, camera, transitions, BGM, and SFX.
-4. **Generate** exactly six self-contained Gemini Omni Flash prompts after the current proposal is approved.
-5. **Stitch** the six approximately ten-second clips into one coherent, one-minute video.
+3. **Choose narration** language and voice (English by default, or Taiwanese Mandarin Edge TTS), then approve the detailed director's proposal.
+4. **Generate** the requested number of self-contained Gemini Omni Flash prompts after the current proposal is approved.
+5. **Stitch** the approximately ten-second clips into one coherent video; six clips and one minute remain the default.
 
-Change the ratio, theme, narration, scene structure, palette, voice, or tone at any point. The Skill returns to the proposal stage and asks for approval again.
+Change the ratio, theme, narration, duration, clip count, scene structure, palette, voice, or tone at any point. The Skill returns to the proposal stage and asks for approval again.
 
 <!-- readme:output -->
 
 ## What you receive
 
 - A creator-ready English title, core message, hook, tone, palette, voice, and music direction
-- Approximately **130–150 English words** of narration for about one minute
-- Six visually distinct storyboard scenes with a change every two to three seconds
-- Exact English dialogue plus a reference translation
-- Six standalone Gemini Omni Flash prompts with timed beats and negative constraints
+- Narration matching the requested duration (English defaults to **130–150 words** for one minute)
+- The requested number of visually distinct storyboard scenes with a change every two to three seconds
+- Exact dialogue in the selected language plus a reference translation
+- The requested number of standalone Gemini Omni Flash prompts with timed beats and negative constraints
 - Matched endings and openings for cleaner transitions between clips
 - BGM, sound-effect, continuity, and final stitching guidance
+- Executable Edge TTS MP3/SRT generation and FFmpeg assembly tools with per-clip voice alignment
 
 <details>
 <summary><strong>Example request</strong></summary>

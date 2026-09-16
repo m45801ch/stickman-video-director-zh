@@ -7,7 +7,7 @@ Use this contract only after explicit approval of the current Phase A.
 Deliver these sections in order:
 
 1. Global continuity block
-2. Six standalone English prompts
+2. The requested number of standalone prompts in the selected narration language
 3. Stitching guide
 4. Voice and music continuity note
 
@@ -26,7 +26,7 @@ Write every prompt in this order:
 5. Composition strategy for the chosen ratio
 6. First-frame state inherited from the previous clip
 7. `[0–3s]`, `[3–7s]`, and `[7–10s]` visual beats
-8. Exact audio-only English dialogue in quotation marks
+8. Exact audio-only dialogue in the selected narration language in quotation marks
 9. Identical narrator description, emotion, and delivery
 10. BGM, synchronized SFX, and voice-first mixing
 11. Final-frame transition state inherited by the next clip
@@ -50,7 +50,7 @@ Use at least four content-relevant visual devices per prompt. Do not introduce n
 
 ## Dialogue and visual text
 
-Quote the approved English VO exactly once as audio-only dialogue. Instruct the model not to add, omit, paraphrase, repeat, reorder, caption, subtitle, or visually transcribe words.
+Quote the approved VO in the selected narration language exactly once as audio-only dialogue. Instruct the model not to add, omit, paraphrase, repeat, reorder, caption, subtitle, or visually transcribe words.
 
 Default every generated clip to no visible words, letters, numbers, captions, subtitles, interface copy, palette labels, production annotations, logos, or watermarks. Require icon-only message bubbles, content cards, clocks, meters, and notifications. Put optional approved phrases in a separate post-production overlay list outside the prompts.
 
@@ -62,7 +62,7 @@ For light mode, describe the background as a completely flat, uniform, digitally
 
 ## Audio contract
 
-Repeat the same narrator specification in all six prompts. State delivery changes without changing voice identity. Keep narration dominant over BGM and effects.
+Repeat the same narrator specification in all requested prompts. State delivery changes without changing voice identity. Keep narration dominant over BGM and effects.
 
 Synchronize effects to visible events such as impacts, transformations, energy releases, steps, wipes, or object movement.
 
@@ -81,7 +81,7 @@ Forbid:
 
 ## Stitching guide
 
-List all six clips in order. For every cut, repeat the exact ending state and matching opening state. Include any trim, short audio crossfade, or match-cut note needed for assembly.
+List all requested clips in order. For every cut, repeat the exact ending state and matching opening state. Include any trim, short audio crossfade, or match-cut note needed for assembly. The default is six clips.
 
 ## Audio continuity note
 
@@ -89,16 +89,16 @@ Independent text-only generations may vary in voice and music. Recommend, in ord
 
 1. Reuse the same voice or audio reference when the interface supports it.
 2. Repeat the identical narrator description in every prompt.
-3. For maximum consistency, generate synchronized SFX and add one continuous external English voiceover and BGM track during assembly.
+3. For maximum consistency, generate synchronized SFX and add one continuous external voiceover in the selected language plus one BGM track during assembly. If Edge TTS Taiwanese Mandarin is selected, follow `references/edge-tts-zh-tw.md`.
 
 ## Phase B checks
 
 - The user approved the current Phase A.
-- Exactly six standalone prompts are present.
+- Exactly the requested number of standalone prompts is present; the default is six.
 - Each prompt repeats ratio, theme, character, palette, voice, audio, transition, and negative locks.
 - Each prompt has all three timed beats and at least four relevant visual devices.
 - Every ending matches the next opening.
-- Dialogue exactly matches the approved narration.
+- Dialogue exactly matches the approved narration in the selected language.
 - Dialogue is explicitly audio-only and is never displayed visually.
 - Standalone prompts contain no hexadecimal, RGB, HSL, Pantone, or other technical color notation.
 - Generated scenes contain no visible writing; optional overlay phrases are listed separately for post-production.

@@ -4,17 +4,17 @@ Use this contract for Phase A. Present a readable production proposal and stop f
 
 ## Rewrite the source
 
-Create one natural English narration of 130–150 words for approximately 55–65 seconds of speech.
+Create one natural narration in the selected language for the requested total duration. If no duration is supplied, target approximately 55–65 seconds. For English, target 130–150 words for the default minute; for Taiwanese Mandarin, write natural Traditional Chinese and use duration rather than English word count as the primary constraint.
 
 - Preserve the source's core claim, names, numbers, and factual meaning.
 - Strengthen a weak opening with an immediate hook.
 - Remove repetition and secondary branches from long sources.
 - Expand short sources with a relevant example, progression, reframe, or callback.
-- Prefer clear spoken English to literal translation.
+- Prefer clear spoken language to literal translation.
 - Simplify wording before increasing speaking speed.
 - Do not invent research, statistics, quotations, product claims, or factual details.
 
-Use the user's language for planning explanations. Keep the voiceover in English and give a reference translation in the user's language.
+Use the user's language for planning explanations. Keep the voiceover in the selected narration language and give a reference translation when the planning language differs.
 
 ## Header contract
 
@@ -23,11 +23,11 @@ Present these items in order:
 1. English title and reference-language title
 2. Core message and opening hook
 3. Chosen aspect ratio and light/dark theme
-4. Narrator identity, speaking pace, English word count, and estimated duration
+4. Narrator identity, locale, speaking pace, spoken-length metric, and estimated duration
 5. Up to three saturated accent colors, named in ordinary language, and what each represents
 6. BGM direction, emotional turn, tone, and narrative arc
 
-Default the narrator only after required setup is complete: a bright, energetic adult female voice speaking natural American English. Infer tone and accent colors from the source when the user did not specify them.
+Default the narrator only after required setup is complete: a bright, energetic adult female voice speaking natural American English. If Taiwanese Mandarin is selected, use Microsoft Edge TTS `zh-TW-HsiaoChenNeural` unless the user chooses another voice. Infer tone and accent colors from the source when the user did not specify them.
 
 ## Narrative patterns
 
@@ -39,12 +39,12 @@ Choose the pattern that fits the source:
 
 ## Storyboard contract
 
-Produce exactly six approximately ten-second rows:
+Produce exactly the requested number of approximately ten-second rows. If the user did not specify a duration or count, produce six rows for approximately 60 seconds:
 
-| Time | Narrative purpose | Stick-figure scene | Motion, camera, and transition | English VO | Reference translation | BGM / SFX |
+| Time | Narrative purpose | Stick-figure scene | Motion, camera, and transition | Selected-language VO | Reference translation | BGM / SFX |
 |---|---|---|---|---|---|---|
 
-Give each row a different narrative job. Allocate approximately 18–25 English words per row while keeping sentence boundaries natural.
+Give each row a different narrative job. Allocate natural sentence boundaries; use approximately 18–25 English words per row for English, or a similar ten-second spoken duration for Taiwanese Mandarin.
 
 ## Visual-density recipe
 
@@ -92,7 +92,7 @@ End each row with a visible interface that the next row inherits: a pose, moving
 
 End Phase A by asking the user to:
 
-- approve the current proposal and generate the six Omni Flash prompts;
+- approve the current proposal and generate the requested Omni Flash prompts;
 - revise a named scene or narration passage; or
 - change a global setting such as aspect ratio, theme, palette, voice, or tone.
 
@@ -101,8 +101,9 @@ Do not include final model prompts. A global change invalidates approval and req
 ## Phase A checks
 
 - Source, aspect ratio, and theme are known.
-- English narration is 130–150 words and approximately 55–65 seconds.
-- Exactly six storyboard rows have distinct narrative purposes.
+- Selected-language narration matches the requested total duration; the default is approximately 55–65 seconds. English is 130–150 words for the default minute, while Taiwanese Mandarin is checked by spoken duration and natural phrasing.
+- The storyboard has exactly the requested number of rows; the default is six.
+- Every storyboard row has a distinct narrative purpose.
 - Every row has three beats, at least four visual devices, audio, and a transition.
 - Visual change occurs approximately every two to three seconds.
 - No more than three saturated accent colors are used.

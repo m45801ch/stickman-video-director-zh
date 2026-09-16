@@ -8,7 +8,7 @@
 
 ### 把任何想法，变成一支真正“动起来”的一分钟火柴人视频。
 
-一个 Codex Skill，就能把你的文案变成经过确认的英文旁白、以画面为先的导演提案，以及六条可直接生产的 Gemini Omni Flash 提示词。
+一个 Codex Skill，就能把你的文案变成经过确认的旁白、以画面为先的导演提案，以及按时长生成的 Gemini Omni Flash 提示词；旁白可选英文或台湾中文 Edge TTS。
 
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
 ![Gemini Omni Flash](https://img.shields.io/badge/Gemini-Omni%20Flash-6d28d9?style=flat-square)
@@ -43,7 +43,7 @@
 | 优势 | 你会得到什么 |
 |---|---|
 | **更强的故事结构** | 在保留核心含义的前提下，把原始材料重组成强开场、递进解释和结尾回扣。 |
-| **真正的确认节点** | 先展示清晰可读的六幕导演提案，再生成最终模型提示词；在修改成本最低的时候调整故事。 |
+| **真正的确认节点** | 先展示清晰可读的完整导演提案，再生成最终模型提示词；在修改成本最低的时候调整故事。 |
 | **丰富且相关的动态画面** | 每段规划三个时间节拍，并加入视觉隐喻、环境变化、镜头运动、文字节点、人物互动、转场、BGM 与音效。 |
 | **完整的生产锁定** | 在每条独立提示词中重复人物、线条粗细、配色、声音、台词、音频、转场和负面约束。 |
 | **真正适配画幅的导演方式** | 针对 `9:16`、`16:9` 或 `1:1` 重新设计构图、镜头路径和文字位置，而不是只替换一个比例标签。 |
@@ -68,23 +68,27 @@
 
 1. **粘贴**文案、笔记、文章，或者只给出一个主题。
 2. **选择** `16:9`、`9:16` 或 `1:1`，再选择浅色或深色主题。
-3. **确认**包含英文 VO、参考翻译、画面、镜头、转场、BGM 和音效的详细导演提案。
-4. **生成**当前提案获批后的六条独立 Gemini Omni Flash 提示词。
-5. **拼接**六段约十秒的视频，组成一支连贯的一分钟成片。
+3. **选择配音**语言与声音（默认英文；也可选择 Edge TTS 台湾中文），再确认包含旁白、参考翻译、画面、镜头、转场、BGM 和音效的详细导演提案。
+4. **生成**当前提案获批后、与时长对应数量的独立 Gemini Omni Flash 提示词。
+5. **拼接**默认六段约十秒的视频；也可以指定总时长或段落数，例如 120 秒对应 12 段。
 
-画幅、主题、旁白、场景结构、配色、声音或基调都可以修改。发生全局变化时，Skill 会回到提案阶段并重新请求确认。
+画幅、主题、旁白语言、场景结构、配色、声音或基调都可以修改。发生全局变化时，Skill 会回到提案阶段并重新请求确认。
 
 <!-- readme:output -->
 
 ## 最终会得到什么
 
 - 面向创作者的英文标题、核心观点、开场钩子、基调、配色、声音与音乐方向
-- 约 **130–150 个英文单词**的一分钟旁白
-- 六个彼此不同的画面场景，每两到三秒出现一次明显变化
-- 精确英文台词与参考翻译
-- 六条带时间节拍和负面约束的独立 Gemini Omni Flash 提示词
+- 与指定时长对应的选定语言旁白（默认一分钟；英文默认约 130–150 字；台湾中文按自然语速与时长控制）
+- 与提示词数量对应的彼此不同画面场景，每两到三秒出现一次明显变化
+- 精确的选定语言台词与参考翻译
+- 按需求数量生成、带时间节拍和负面约束的独立 Gemini Omni Flash 提示词（默认六条）
 - 前后匹配的结尾与开场，让片段之间更容易衔接
 - BGM、音效、一致性和最终拼接建议
+- 可选的 Edge TTS 台湾中文配音导出指令（`zh-TW-HsiaoChenNeural`）
+- 可执行的 Edge TTS 生成器，可从单一或分段旁白文字产生 MP3／SRT
+- 可执行的 FFmpeg 组装器，可拼接片段并混合旁白、BGM、SFX 输出 MP4
+- 支持按 `clip-01`／`vo-01` 编号自动对齐旁白，并合并完整 SRT 时间轴
 
 <details>
 <summary><strong>示例请求</strong></summary>
@@ -95,7 +99,7 @@ Use $directing-stickman-videos to turn this copy into a one-minute English stick
 Gravity bends space and time so strongly around a black hole that even light cannot escape.
 ```
 
-Skill 会先询问缺失的画幅和主题，然后展示六幕导演提案供你确认，确认前不会生成最终模型提示词。
+Skill 会先询问缺失的画幅和主题，然后展示完整导演提案供你确认，确认前不会生成最终模型提示词。未指定时长时，默认使用六幕、约一分钟。
 
 </details>
 
@@ -121,6 +125,36 @@ cp -R skills/directing-stickman-videos "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```text
 $directing-stickman-videos
 ```
+
+### 生成配音与最终影片
+
+安装 Edge TTS 与 FFmpeg（需同时提供 `ffmpeg` 和 `ffprobe`）：
+
+```bash
+python -m pip install edge-tts
+```
+
+先将 Phase A 核准后的旁白拆成 `narration/vo-01.txt`、`vo-02.txt` 等文件，再生成对应的 MP3／SRT：
+
+```bash
+python skills/directing-stickman-videos/scripts/edge_tts_generate.py \
+  --input narration \
+  --output-dir audio/voice \
+  --voice zh-TW-HsiaoChenNeural
+```
+
+影片片段放在 `clips/clip-01.mp4`、`clip-02.mp4` 等路径后，可依编号自动对齐配音并输出最终 MP4 与完整 SRT：
+
+```bash
+python skills/directing-stickman-videos/scripts/assemble_video.py \
+  --videos clips \
+  --voice-dir audio/voice \
+  --bgm audio/bgm.mp3 \
+  --sfx audio/sfx.mp3 \
+  --output output/final.mp4
+```
+
+使用 `--dry-run` 可先预览命令；工具会在配音与影片时长差异超过 0.25 秒时发出警告。
 
 <!-- readme:reliability -->
 
