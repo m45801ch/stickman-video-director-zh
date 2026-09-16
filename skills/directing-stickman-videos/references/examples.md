@@ -2,53 +2,53 @@
 
 Load this reference only when a concrete end-to-end example resolves ambiguity. Reuse its workflow and level of detail, not its topic, wording, metaphors, or palette.
 
-## User source
+## 使用者素材
 
-“你是不是也经常这样？明明什么都还没做，但感觉自己已经累坏了。还没迈出第一步，你的脑子里就已经提前演练了一百种失败的结局。别让想太多毁掉你的生活。”
+「你是不是也常常這樣？明明什麼都還沒做，卻覺得自己已經累壞了。還沒邁出第一步，腦中就已經提前演練了一百種失敗的結局。別讓想太多毀掉你的生活。」
 
-## Required setup
+## 必要設定
 
-Assistant: “请选择视频尺寸（16:9、9:16 或 1:1），以及主题（白底黑火柴人或黑底白火柴人）。”
+Assistant:「請選擇影片尺寸（16:9、9:16 或 1:1），以及主題（白底黑火柴人或黑底白火柴人）。」
 
-User: “16:9，黑底白火柴人。”
+User:「16:9，黑底白火柴人。」
 
-## Phase A — 导演预案
+## Phase A — 導演預案
 
 **English title:** *Stop Letting Overthinking Ruin Your Life*
-**中文标题：**《别让“想太多”毁了你》
+**中文標題：**《別讓「想太多」毀了你》
 
-**核心观点：** 焦虑往往不是由现实造成，而是由尚未发生的失败想象造成；打破内耗最有效的方法，是立即完成一个微小行动。
+**核心觀點：** 焦慮往往不是由現實造成，而是由尚未發生的失敗想像造成；打破內耗最有效的方法，是立即完成一個微小行動。
 
-**Hook：** 事情还没开始，大脑已经背上了一百种想象中的灾难。
+**Hook：** 事情還沒開始，大腦已經背上了一百種想像中的災難。
 
-**画面规格：** 16:9 横屏、黑色背景、白色火柴人。使用左—中—右横向调度、侧向跟拍、水平匹配剪辑和有意识的负空间。
+**畫面規格：** 16:9 橫式、黑色背景、白色火柴人。使用左—中—右橫向調度、側向跟拍、水平匹配剪輯和有意識的負空間。
 
-**旁白：** 明亮、有力量的成年女性；自然美式英语；约 144 词；约 60 秒。
+**旁白：** 明亮、有力量的成年女性；自然美式英語；約 144 字；約 60 秒。
 
-**强调色：**
+**強調色：**
 
-- 高饱和焦虑紫：思想风暴和灾难想象
-- 鲜明危险红：拒绝、牢笼和束缚
-- 温暖行动金：道路、能量和成长
+- 高飽和焦慮紫：思想風暴和災難想像
+- 鮮明危險紅：拒絕、牢籠和束縛
+- 溫暖行動金：道路、能量和成長
 
-**BGM：** 前半段为 72 BPM 的低沉循环钢琴，加入时钟、心跳和低频；约 0:35 开始蓄力，0:40 切换到 108 BPM 的鼓点、弦乐和明亮合成器。
+**BGM：** 前半段為 72 BPM 的低沉循環鋼琴，加入時鐘、心跳和低頻；約 0:35 開始蓄力，0:40 切換到 108 BPM 的鼓點、弦樂和明亮合成器。
 
-**情绪曲线：** 疲惫 → 恐惧升级 → 被困 → 认知反转 → 爆发行动 → 释放与成长。
+**情緒曲線：** 疲憊 → 恐懼升級 → 受困 → 認知反轉 → 爆發行動 → 釋放與成長。
 
-| 时间 | 叙事目的 | 火柴人场景 | 动作、镜头与转场 | English VO | 中文参考 | BGM / SFX |
+| 時間 | 敘事目的 | 火柴人場景 | 動作、鏡頭與轉場 | English VO | 中文參考 | BGM / SFX |
 |---|---|---|---|---|---|---|
-| 0–10s | 强 Hook，引发共鸣 | **0–3s：** A 在画面偏左独自站立，右侧出现紫色思想点。**3–7s：** 紫点分裂成巨型线团，右上时钟倒转，右下电池耗尽。**7–10s：** 线团从右向左压向 A 并填满镜头。 | 横向推近、线团旋转、时钟倒转、电池动画、地面压力波和满屏遮挡转场。下一段从同一紫色线团内部穿出。 | Do you ever feel exhausted before you have even begun? Nothing has happened yet, but your mind is already carrying a hundred imaginary disasters. | 你是否还没开始，就已经感到精疲力尽？明明什么都没发生，大脑却已经背上了一百种想象中的灾难。 | 循环钢琴、时钟滴答、电流脉冲、电量耗尽声和低频上升。 |
-| 10–20s | 展示灾难化想象 | **0–3s：** 镜头穿过线团，出现 A 摔倒的想象气泡。**3–7s：** 横向掠过人群指责、邮件红叉和巨大拒绝印章。**7–10s：** 气泡折叠成红色牢笼并迅速收紧。 | 横向穿越、气泡弹出、印章撞击、面板折叠、牢笼闭合和红色栏杆向下延伸。下一段将栏杆变成藤蔓。 | Before the first step, you picture failure, judgment, rejection, and every possible way things could go wrong. Your thoughts turn possibilities into prisons. | 还没迈出第一步，你已经想象了失败、评判、拒绝，以及所有可能出错的方式。你的思想把可能性变成了牢笼。 | 风声、摔倒声、人群低语、印章声和金属重击。 |
-| 20–30s | 将焦虑具象化为束缚 | **0–3s：** 红色栏杆变成藤蔓缠住 A。**3–7s：** 地面变为向左移动的跑步机，A 努力向右却留在原地，紫色疑虑螺旋增加。**7–10s：** 一道金光横切全屏并停止旋转。 | 低机位推近、藤蔓收紧、横向跑步机、俯视旋转、疑虑漩涡和金色切割光。下一段将金光变成道路。 | Then come the questions: What if I fail? What will people think? The more you search for certainty, the tighter fear wraps around your feet. | 接着问题不断出现：“如果失败怎么办？”“别人会怎么看？”你越想找到绝对确定，恐惧就把双脚缠得越紧。 | 心跳加速、藤蔓摩擦、跑步机空转、焦虑低语和清脆切割声。 |
-| 30–40s | 认知反转 | **0–3s：** 金光变成横向道路，B 从左向右奔跑。**3–7s：** B 摔倒、散开、重新组合并继续跑。**7–10s：** A 身后的紫色灾难画框破碎，大片碎片横扫镜头。 | 侧向跟拍、摔倒拆解、快速重组、玻璃破碎、A 抬头和碎片擦镜。下一段从碎片后揭示 A 抓住藤蔓。 | But reality is rarely what hurts you most. It is the future your mind keeps inventing. Action does not require confidence; confidence follows action. | 真正伤害你的很少是现实，而是大脑不断虚构的未来。行动不需要先有自信；自信是在行动之后产生的。 | 钢琴转暖、跑步声、重组卡扣、玻璃破碎和上升脉冲。 |
-| 40–50s | 行动爆发 | **0–3s：** 碎片移开，A 抓住藤蔓，金色能量沿双臂流动。**3–7s：** A 扯断藤蔓，碎片向右爆开。**7–10s：** 发送图标、空白文档和金色行动路径通过匹配剪辑连接，A 抬起右脚。 | 快速推近、镜头震动、能量传播、藤蔓爆裂、三次匹配剪辑和悬停脚步。下一段由同一只脚落地。 | So interrupt the loop. Choose one tiny move and do it now. Send the message, open the document, take the first imperfect step. | 打断这个循环。现在就选择一个微小动作：发出消息、打开文档，迈出并不完美的第一步。 | BGM 切到 108 BPM；能量声、断裂声、发送提示、键盘声和蓄力脚步。 |
-| 50–60s | 释放、成长与 CTA | **0–3s：** 右脚落地产生金色冲击波，紫色线团炸成金星。**3–7s：** 地面折成由左下通往右上的山路，A 开始攀登，紫色影子消散。**7–10s：** 镜头拉远，A 走向金色地平线，中心右侧保留干净留白。 | 落脚冲击、满屏波纹、星点粒子、纸张折山、对角跟拍和远景拉出。最后保持金色道路与后期 CTA 安全区。 | The moment you move, fear loses power. Stop waiting to feel ready. Try, make mistakes, grow—and prove your thoughts do not control your life. | 当你开始行动，恐惧就会失去力量。别再等待准备好的感觉。去尝试、去犯错、去成长，证明思想无法控制你的人生。 | 强鼓点、冲击波、星光、折纸、攀爬脚步和坚定收束音。 |
+| 0–10s | 強 Hook，引發共鳴 | **0–3s：** A 在畫面偏左獨自站立，右側出現紫色思想點。**3–7s：** 紫點分裂成巨型線團，右上時鐘倒轉，右下電池耗盡。**7–10s：** 線團從右向左壓向 A 並填滿鏡頭。 | 橫向推近、線團旋轉、時鐘倒轉、電池動畫、地面壓力波和滿版遮擋轉場。下一段從同一紫色線團內部穿出。 | Do you ever feel exhausted before you have even begun? Nothing has happened yet, but your mind is already carrying a hundred imaginary disasters. | 你是否還沒開始，就已經感到精疲力盡？明明什麼都沒發生，大腦卻已經背上了一百種想像中的災難。 | 循環鋼琴、時鐘滴答、電流脈衝、電量耗盡聲和低頻上升。 |
+| 10–20s | 展示災難化想像 | **0–3s：** 鏡頭穿過線團，出現 A 摔倒的想像氣泡。**3–7s：** 橫向掠過人群指責、郵件紅叉和巨大拒絕印章。**7–10s：** 氣泡折疊成紅色牢籠並迅速收緊。 | 橫向穿越、氣泡彈出、印章撞擊、面板折疊、牢籠閉合和紅色欄杆向下延伸。下一段將欄杆變成藤蔓。 | Before the first step, you picture failure, judgment, rejection, and every possible way things could go wrong. Your thoughts turn possibilities into prisons. | 還沒邁出第一步，你已經想像了失敗、評判、拒絕，以及所有可能出錯的方式。你的思想把可能性變成了牢籠。 | 風聲、摔倒聲、人群低語、印章聲和金屬重擊。 |
+| 20–30s | 將焦慮具象化為束縛 | **0–3s：** 紅色欄杆變成藤蔓纏住 A。**3–7s：** 地面變為向左移動的跑步機，A 努力向右卻留在原地，紫色疑慮螺旋增加。**7–10s：** 一道金光橫切全版並停止旋轉。 | 低機位推近、藤蔓收緊、橫向跑步機、俯視旋轉、疑慮漩渦和金色切割光。下一段將金光變成道路。 | Then come the questions: What if I fail? What will people think? The more you search for certainty, the tighter fear wraps around your feet. | 接著問題不斷出現：「如果失敗怎麼辦？」「別人會怎麼看？」你越想找到絕對確定，恐懼就把雙腳纏得越緊。 | 心跳加速、藤蔓摩擦、跑步機空轉、焦慮低語和清脆切割聲。 |
+| 30–40s | 認知反轉 | **0–3s：** 金光變成橫向道路，B 從左向右奔跑。**3–7s：** B 摔倒、散開、重新組合並繼續跑。**7–10s：** A 身後的紫色災難畫框破碎，大量碎片橫掃鏡頭。 | 側向跟拍、摔倒拆解、快速重組、玻璃破碎、A 抬頭和碎片擦鏡。下一段從碎片後揭示 A 抓住藤蔓。 | But reality is rarely what hurts you most. It is the future your mind keeps inventing. Action does not require confidence; confidence follows action. | 真正傷害你的很少是現實，而是大腦不斷虛構的未來。行動不需要先有自信；自信是在行動之後產生的。 | 鋼琴轉暖、跑步聲、重組卡扣、玻璃破碎和上升脈衝。 |
+| 40–50s | 行動爆發 | **0–3s：** 碎片移開，A 抓住藤蔓，金色能量沿雙臂流動。**3–7s：** A 扯斷藤蔓，碎片向右爆開。**7–10s：** 傳送圖示、空白文件和金色行動路徑透過匹配剪輯連接，A 抬起右腳。 | 快速推近、鏡頭震動、能量傳播、藤蔓爆裂、三次匹配剪輯和懸停腳步。下一段由同一隻腳落地。 | So interrupt the loop. Choose one tiny move and do it now. Send the message, open the document, take the first imperfect step. | 打斷這個循環。現在就選擇一個微小動作：發出訊息、開啟文件，邁出並不完美的第一步。 | BGM 切到 108 BPM；能量聲、斷裂聲、傳送提示、鍵盤聲和蓄力腳步。 |
+| 50–60s | 釋放、成長與 CTA | **0–3s：** 右腳落地產生金色衝擊波，紫色線團炸成金色星點。**3–7s：** 地面折成由左下通往右上的山路，A 開始攀登，紫色影子消散。**7–10s：** 鏡頭拉遠，A 走向金色地平線，中心右側保留乾淨留白。 | 落腳衝擊、滿版波紋、星點粒子、紙張折山、對角跟拍和遠景拉出。最後保持金色道路與後期 CTA 安全區。 | The moment you move, fear loses power. Stop waiting to feel ready. Try, make mistakes, grow—and prove your thoughts do not control your life. | 當你開始行動，恐懼就會失去力量。別再等待準備好的感覺。去嘗試、去犯錯、去成長，證明思想無法控制你的人生。 | 強鼓點、衝擊波、星光、折紙、攀爬腳步和堅定收束音。 |
 
-**可选后期文字叠加：** Clip 2 在安全区加入 “WHAT IF?”；Clip 6 在中心右侧加入 “STOP OVERTHINKING. START MOVING.”。两处文字均在剪辑阶段添加，不进入 Omni Flash 视频生成提示词。
+**可選後期文字疊加：** Clip 2 在安全區加入 “WHAT IF?”；Clip 6 在中心右側加入 “STOP OVERTHINKING. START MOVING.”。兩處文字均在剪輯階段添加，不進入 Omni Flash 影片生成提示詞。
 
-Assistant: “请确认当前导演预案，或指定要修改的场景、旁白、尺寸、主题、配色、声音或语气。确认后我再生成六条 Omni Flash 提示词。”
+Assistant:「請確認目前導演預案，或指定要修改的場景、旁白、尺寸、主題、配色、聲音或語氣。確認後我再生成六條 Omni Flash 提示詞。」
 
-User: “确认。”
+User:「確認。」
 
 ## English VO transcript
 
