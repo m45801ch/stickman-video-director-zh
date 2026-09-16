@@ -2,96 +2,96 @@
 
 <div align="center">
 
-[**简体中文**](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
+[**繁體中文**](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português do Brasil](README.pt-BR.md)
 
 # Stickman Video Director
 
-### 把任何想法，变成一支真正“动起来”的一分钟火柴人视频。
+### 把任何想法，變成一支真正「動起來」的一分鐘火柴人影片。
 
-一个 Codex Skill，就能把你的文案变成经过确认的旁白、以画面为先的导演提案，以及按时长生成的 Gemini Omni Flash 提示词；旁白可选英文或台湾中文 Edge TTS。
+一個 Codex Skill，就能把你的文案變成經過確認的旁白、以畫面為先的導演提案，以及按時長生成的 Gemini Omni Flash 提示詞；旁白可選英文或台灣中文 Edge TTS。
 
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
 ![Gemini Omni Flash](https://img.shields.io/badge/Gemini-Omni%20Flash-6d28d9?style=flat-square)
-![一分钟视频](https://img.shields.io/badge/Video-≈60%20seconds-0066ff?style=flat-square)
+![一分鐘影片](https://img.shields.io/badge/Video-≈60%20seconds-0066ff?style=flat-square)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-适合制作发布在 **YouTube Shorts、TikTok、Instagram Reels 和 YouTube** 上的知识解释、励志故事、教育短片与快节奏视觉内容。
+適合製作發布在 **YouTube Shorts、TikTok、Instagram Reels 和 YouTube** 上的知識解說、勵志故事、教育短片與快節奏視覺內容。
 
 </div>
 
 <!-- readme:demos -->
 
-## 两种高对比风格，一套统一的视觉语言
+## 兩種高對比風格，一套統一的視覺語言
 
 | 白底黑火柴人 | 黑底白火柴人 |
 |:---:|:---:|
-| <!-- demo:light:start --><a href="assets/readme/light-theme-demo.mp4"><img src="assets/readme/light-theme-demo.gif" alt="白底黑火柴人和高饱和强调色的动态效果演示" width="600"></a><!-- demo:light:end --> | <!-- demo:dark:start --><a href="assets/readme/dark-theme-demo.mp4"><img src="assets/readme/dark-theme-demo.gif" alt="黑底白火柴人和高饱和强调色的动态效果演示" width="600"></a><!-- demo:dark:end --> |
-| 白色画布 · 黑色人物 | 黑色画布 · 白色人物 |
+| <!-- demo:light:start --><a href="assets/readme/light-theme-demo.mp4"><img src="assets/readme/light-theme-demo.gif" alt="白底黑火柴人和高飽和強調色的動態效果示範" width="600"></a><!-- demo:light:end --> | <!-- demo:dark:start --><a href="assets/readme/dark-theme-demo.mp4"><img src="assets/readme/dark-theme-demo.gif" alt="黑底白火柴人和高飽和強調色的動態效果示範" width="600"></a><!-- demo:dark:end --> |
+| 白色畫布 · 黑色人物 | 黑色畫布 · 白色人物 |
 
-> 点击任一动态预览，即可打开带声音的完整 10 秒视频。如果这种视觉风格也让你有了创作灵感，欢迎给仓库点一个 Star，让更多创作者发现它。
+> 點擊任一動態預覽，即可開啟帶聲音的完整 10 秒影片。如果這種視覺風格也讓你有了創作靈感，歡迎替儲存庫點一個 Star，讓更多創作者發現它。
 
-## 有文案，不等于已经有了视频
+## 有文案，不等於已經有了影片
 
-一个好想法仍然可能生成一段平淡的动画：一个人物、一个背景，十秒钟里几乎没有新的视觉变化。真正导演完整的一分钟，需要设计开场钩子、控制解释节奏、创造贴合内容的视觉隐喻、推动镜头、连接场景，并在多次独立生成之间锁住一致性。
+一個好想法仍然可能生成一段平淡的動畫：一個人物、一個背景，十秒鐘裡幾乎沒有新的視覺變化。真正導演完整的一分鐘，需要設計開場鉤子、控制解釋節奏、創造貼合內容的視覺隱喻、推動鏡頭、連接場景，並在多次獨立生成之間鎖定一致性。
 
-**Stickman Video Director 会在你消耗生成额度之前，先完成这些制作层面的思考。**
+**Stickman Video Director 會在你消耗生成額度之前，先完成這些製作層面的思考。**
 
 <!-- readme:advantages -->
 
-## 为什么短视频创作者会需要这个 Skill
+## 為什麼短影片創作者會需要這個 Skill
 
-| 优势 | 你会得到什么 |
+| 優勢 | 你會得到什麼 |
 |---|---|
-| **更强的故事结构** | 在保留核心含义的前提下，把原始材料重组成强开场、递进解释和结尾回扣。 |
-| **真正的确认节点** | 先展示清晰可读的完整导演提案，再生成最终模型提示词；在修改成本最低的时候调整故事。 |
-| **丰富且相关的动态画面** | 每段规划三个时间节拍，并加入视觉隐喻、环境变化、镜头运动、文字节点、人物互动、转场、BGM 与音效。 |
-| **完整的生产锁定** | 在每条独立提示词中重复人物、线条粗细、配色、声音、台词、音频、转场和负面约束。 |
-| **真正适配画幅的导演方式** | 针对 `9:16`、`16:9` 或 `1:1` 重新设计构图、镜头路径和文字位置，而不是只替换一个比例标签。 |
-| **可控的视觉反差** | 支持白底黑人、黑底白人，以及最多三种高饱和强调色。 |
-| **忠于原始材料** | 不随意编造缺乏依据的事实、数据、引语或产品卖点。 |
+| **更強的故事結構** | 在保留核心含義的前提下，把原始材料重組成強開場、遞進解釋和結尾回扣。 |
+| **真正的確認節點** | 先展示清晰可讀的完整導演提案，再生成最終模型提示詞；在修改成本最低的時候調整故事。 |
+| **豐富且相關的動態畫面** | 每段規劃三個時間節拍，並加入視覺隱喻、環境變化、鏡頭運動、文字節點、人物互動、轉場、BGM 與音效。 |
+| **完整的生產鎖定** | 在每條獨立提示詞中重複人物、線條粗細、配色、聲音、台詞、音訊、轉場和負面約束。 |
+| **真正適配畫幅的導演方式** | 針對 `9:16`、`16:9` 或 `1:1` 重新設計構圖、鏡頭路徑和文字位置，而不是只替換一個比例標籤。 |
+| **可控的視覺反差** | 支援白底黑火柴人、黑底白火柴人，以及最多三種高飽和強調色。 |
+| **忠於原始材料** | 不隨意編造缺乏依據的事實、資料、引語或產品賣點。 |
 
-无需 API，也不依赖 MCP。安装 Skill、调用它，然后在对话中完成整个制作流程即可。
+不需要 API，也不依賴 MCP。安裝 Skill、呼叫它，然後在對話中完成整個製作流程即可。
 
 <!-- readme:platforms -->
 
-## 同一个想法，为不同屏幕重新构图
+## 同一個想法，為不同螢幕重新構圖
 
-| 比例 | 适合场景 | 导演重点 |
+| 比例 | 適合場景 | 導演重點 |
 |---|---|---|
-| `9:16` | YouTube Shorts、TikTok、Instagram Reels | 纵向纵深、醒目的中央轮廓、层叠式揭示、适合手机阅读的文字 |
-| `16:9` | YouTube 知识视频、教育内容、视觉随笔 | 横向调度、侧向镜头运动、分屏对比、充足的负空间 |
-| `1:1` | 社交平台信息流、紧凑的产品故事 | 强中心构图、放射式运动、清晰的边缘留白 |
+| `9:16` | YouTube Shorts、TikTok、Instagram Reels | 垂直縱深、醒目的中央輪廓、層疊式揭示、適合手機閱讀的文字 |
+| `16:9` | YouTube 知識影片、教育內容、視覺隨筆 | 橫向調度、側向鏡頭運動、分割畫面對比、充足的負空間 |
+| `1:1` | 社群平台資訊流、緊湊的產品故事 | 強中心構圖、放射式運動、清晰的邊緣留白 |
 
 <!-- readme:workflow -->
 
-## 粘贴 → 选择 → 确认 → 生成 → 拼接
+## 貼上 → 選擇 → 確認 → 生成 → 拼接
 
-1. **粘贴**文案、笔记、文章，或者只给出一个主题。
-2. **选择** `16:9`、`9:16` 或 `1:1`，再选择浅色或深色主题。
-3. **选择配音**语言与声音（默认英文；也可选择 Edge TTS 台湾中文），再确认包含旁白、参考翻译、画面、镜头、转场、BGM 和音效的详细导演提案。
-4. **生成**当前提案获批后、与时长对应数量的独立 Gemini Omni Flash 提示词。
-5. **拼接**默认六段约十秒的视频；也可以指定总时长或段落数，例如 120 秒对应 12 段。
+1. **貼上**文案、筆記、文章，或只提供一個主題。
+2. **選擇** `16:9`、`9:16` 或 `1:1`，再選擇淺色或深色主題。
+3. **選擇配音**語言與聲音（預設英文；也可選擇 Edge TTS 台灣中文），再確認包含旁白、參考翻譯、畫面、鏡頭、轉場、BGM 和音效的詳細導演提案。
+4. **生成**目前提案獲得核准後、與時長對應數量的獨立 Gemini Omni Flash 提示詞。
+5. **拼接**預設六段約十秒的影片；也可以指定總時長或段落數，例如 120 秒對應 12 段。
 
-画幅、主题、旁白语言、场景结构、配色、声音或基调都可以修改。发生全局变化时，Skill 会回到提案阶段并重新请求确认。
+畫幅、主題、旁白語言、場景結構、配色、聲音或基調都可以修改。發生全域變更時，Skill 會回到提案階段並重新請求確認。
 
 <!-- readme:output -->
 
-## 最终会得到什么
+## 最終會得到什麼
 
-- 面向创作者的英文标题、核心观点、开场钩子、基调、配色、声音与音乐方向
-- 与指定时长对应的选定语言旁白（默认一分钟；英文默认约 130–150 字；台湾中文按自然语速与时长控制）
-- 与提示词数量对应的彼此不同画面场景，每两到三秒出现一次明显变化
-- 精确的选定语言台词与参考翻译
-- 按需求数量生成、带时间节拍和负面约束的独立 Gemini Omni Flash 提示词（默认六条）
-- 前后匹配的结尾与开场，让片段之间更容易衔接
-- BGM、音效、一致性和最终拼接建议
-- 可选的 Edge TTS 台湾中文配音导出指令（`zh-TW-HsiaoChenNeural`）
-- 可执行的 Edge TTS 生成器，可从单一或分段旁白文字产生 MP3／SRT
-- 可执行的 FFmpeg 组装器，可拼接片段并混合旁白、BGM、SFX 输出 MP4
-- 支持按 `clip-01`／`vo-01` 编号自动对齐旁白，并合并完整 SRT 时间轴
+- 面向創作者的英文標題、核心觀點、開場鉤子、基調、配色、聲音與音樂方向
+- 與指定時長對應的選定語言旁白（預設一分鐘；英文預設約 130–150 字；台灣中文按自然語速與時長控制）
+- 與提示詞數量對應的不同畫面場景，每兩到三秒出現一次明顯變化
+- 精確的選定語言台詞與參考翻譯
+- 按需求數量生成、帶時間節拍和負面約束的獨立 Gemini Omni Flash 提示詞（預設六條）
+- 前後匹配的結尾與開場，讓片段之間更容易銜接
+- BGM、音效、一致性和最終拼接建議
+- 可選的 Edge TTS 台灣中文配音匯出指令（`zh-TW-HsiaoChenNeural`）
+- 可執行的 Edge TTS 生成器，可從單一或分段旁白文字產生 MP3／SRT
+- 可執行的 FFmpeg 組裝器，可拼接片段並混合旁白、BGM、SFX 輸出 MP4
+- 支援按 `clip-01`／`vo-01` 編號自動對齊旁白，並合併完整 SRT 時間軸
 
 <details>
-<summary><strong>示例请求</strong></summary>
+<summary><strong>範例請求</strong></summary>
 
 ```text
 Use $directing-stickman-videos to turn this copy into a one-minute English stickman video:
@@ -99,42 +99,42 @@ Use $directing-stickman-videos to turn this copy into a one-minute English stick
 Gravity bends space and time so strongly around a black hole that even light cannot escape.
 ```
 
-Skill 会先询问缺失的画幅和主题，然后展示完整导演提案供你确认，确认前不会生成最终模型提示词。未指定时长时，默认使用六幕、约一分钟。
+Skill 會先詢問缺少的畫幅和主題，然後展示完整導演提案供你確認，確認前不會生成最終模型提示詞。未指定時長時，預設使用六幕、約一分鐘。
 
 </details>
 
 <!-- readme:install -->
 
-## 安装
+## 安裝
 
-克隆仓库：
+複製儲存庫：
 
 ```bash
 git clone https://github.com/kaomei/stickman-video-director.git
 cd stickman-video-director
 ```
 
-把可安装的 Skill 文件夹复制到 Codex skills 目录：
+把可安裝的 Skill 資料夾複製到 Codex skills 目錄：
 
 ```bash
 cp -R skills/directing-stickman-videos "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-重启 Codex，让 Skill 出现在可用列表中。然后调用它并粘贴你的素材：
+重新啟動 Codex，讓 Skill 出現在可用清單中。然後呼叫它並貼上你的素材：
 
 ```text
 $directing-stickman-videos
 ```
 
-### 生成配音与最终影片
+### 生成配音與最終影片
 
-安装 Edge TTS 与 FFmpeg（需同时提供 `ffmpeg` 和 `ffprobe`）：
+安裝 Edge TTS 與 FFmpeg（需同時提供 `ffmpeg` 和 `ffprobe`）：
 
 ```bash
 python -m pip install edge-tts
 ```
 
-先将 Phase A 核准后的旁白拆成 `narration/vo-01.txt`、`vo-02.txt` 等文件，再生成对应的 MP3／SRT：
+先將 Phase A 核准後的旁白拆成 `narration/vo-01.txt`、`vo-02.txt` 等檔案，再生成對應的 MP3／SRT：
 
 ```bash
 python skills/directing-stickman-videos/scripts/edge_tts_generate.py \
@@ -143,7 +143,7 @@ python skills/directing-stickman-videos/scripts/edge_tts_generate.py \
   --voice zh-TW-HsiaoChenNeural
 ```
 
-影片片段放在 `clips/clip-01.mp4`、`clip-02.mp4` 等路径后，可依编号自动对齐配音并输出最终 MP4 与完整 SRT：
+影片片段放在 `clips/clip-01.mp4`、`clip-02.mp4` 等路徑後，可依編號自動對齊配音並輸出最終 MP4 與完整 SRT：
 
 ```bash
 python skills/directing-stickman-videos/scripts/assemble_video.py \
@@ -154,36 +154,36 @@ python skills/directing-stickman-videos/scripts/assemble_video.py \
   --output output/final.mp4
 ```
 
-使用 `--dry-run` 可先预览命令；工具会在配音与影片时长差异超过 0.25 秒时发出警告。
+使用 `--dry-run` 可先預覽命令；工具會在配音與影片時長差異超過 0.25 秒時發出警告。
 
 <!-- readme:reliability -->
 
-## 为反复修改而设计，也诚实面对生成差异
+## 為反覆修改而設計，也誠實面對生成差異
 
-- **确认必须明确。** 当前提案没有得到批准前，不会进入 Phase B。
-- **全局变化会触发重新构图。** 新画幅或新主题会重新设计导演提案，而不是机械替换文字。
-- **提示词可以独立使用。** 每条都会重复独立生成所需的关键锁定条件。
-- **内容始终有依据。** Skill 可以强化结构与表达，但不会添加没有来源的主张。
-- **音频仍可能存在差异。** 独立生成的视频可能出现轻微的声音或音乐差别。追求最高一致性时，可以保留每段同步音效，并在拼接时使用一条连续的外部旁白和 BGM。
+- **確認必須明確。** 目前提案沒有得到核准前，不會進入 Phase B。
+- **全域變更會觸發重新構圖。** 新畫幅或新主題會重新設計導演提案，而不是機械替換文字。
+- **提示詞可以獨立使用。** 每條都會重複獨立生成所需的關鍵鎖定條件。
+- **內容始終有依據。** Skill 可以強化結構與表達，但不會添加沒有來源的主張。
+- **音訊仍可能存在差異。** 獨立生成的影片可能出現輕微的聲音或音樂差異。追求最高一致性時，可以保留每段同步音效，並在拼接時使用一條連續的外部旁白和 BGM。
 
-## 仓库结构
+## 儲存庫結構
 
 ```text
-skills/directing-stickman-videos/  可安装的 Skill
-assets/readme/                     README 演示素材
-tests/                             行为场景与验证脚本
-docs/superpowers/specs/            已确认的产品设计
-docs/superpowers/plans/            实施计划
+skills/directing-stickman-videos/  可安裝的 Skill
+assets/readme/                     README 示範素材
+tests/                             行為情境與驗證腳本
+docs/superpowers/specs/            已確認的產品設計
+docs/superpowers/plans/            實作計畫
 ```
 
 <!-- readme:contribute -->
 
 ## 一起把它做得更好
 
-欢迎提交使用案例、提示词改进、真实生成记录与具体建议。你可以创建 issue，或者通过 pull request 提交一个范围明确、能够复现的改动。
+歡迎提交使用案例、提示詞改進、真實生成紀錄與具體建議。你可以建立 issue，或透過 pull request 提交範圍明確、能夠重現的變更。
 
-如果这个 Skill 帮你把一个迟迟没有完成的想法，变成了一支真正可以发布的视频，**请给仓库点一个 Star**。它会帮助下一个正在寻找同样工作流的创作者发现这个项目。
+如果這個 Skill 幫你把一個遲遲沒有完成的想法，變成了一支真正可以發布的影片，**請替儲存庫點一個 Star**。它會幫助下一個正在尋找相同工作流程的創作者發現這個專案。
 
-## 许可证
+## 授權條款
 
 MIT
